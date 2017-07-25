@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    border: none;
+}
+table{
+    width:100%;
+    border-collapse: collapse;
+}
+table caption{
+    width:100%;
+    min-height:3em;
+    line-height: 3em;
+    background-color: #3355cc;
+}
+table tbody tr td{
+    border: 2px solid silver;
+    height: 2em;
+}
+input{
+    height:100%;
+    width:100%;
+}
+.toggle,.date{
+    height: auto;
+    width: auto;
+}

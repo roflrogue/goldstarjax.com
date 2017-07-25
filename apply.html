@@ -1,0 +1,327 @@
+<html>
+    <head>
+        <title>Gold Star Pawn - Jacksonville</title>
+        <link rel="stylesheet" type="text/css" href="css/app_style.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Ubuntu" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="mailto:aaron.hairston.ah@gmail.com">
+            <!--personal info-->
+            <table>
+                <caption>APPLICATION INFORMATION</caption>
+                <tbody>
+                    <tr>
+                        <td><input type="text" name="ai_f_name" placeholder="First Name"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="ai_l_name" placeholder="Last Name"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="ai_mi" placeholder="M.I."></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="ai_address" placeholder="Street Address"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="ai_apartment_num"placeholder="Apartment/Unit#"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="ai_city"placeholder="City:"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="ai_state" placeholder="State:"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="ai_zip" placeholder="Zip:"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="tel" name="ai_tel" placeholder="Phone Number"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="email" name="ai_email" placeholder="Email Address"></td>
+                    </tr>
+                    <tr>
+                        <td>Date Available: <input class="date" name="ai_date_available" type="date"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="password" name="ai_ssn" placeholder="Social Security Number"</td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="ai_salary" placeholder="Desired Salary"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="ai_pos" placeholder="Position Applied For"></td>
+                    </tr>
+                    <tr>
+                        <td>Are you a citizen of the United States? 
+                            <br  />
+                            <input class="toggle" name="ai_citizen" type="radio" value="yes">Yes</input> <input class="toggle" name="ai_citizen" type="radio" value="no">No</input>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>If no, are you authorized to work in the U.S.? 
+                            <br  />
+                            <input class="toggle" name="ai_can_work" type="radio" value="yes">Yes</input> <input class="toggle" name="ai_can_work" type="radio" value="no">No</input>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Have you ever worked for this company? 
+                            <br  />
+                            <input class="toggle" name="ai_work_here" type="radio" value="yes">Yes</input> <input class="toggle" name="ai_work_here" type="radio" value="no">No</input>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">If yes, When? <input class="date" name="ai_date_here" type="date"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Have you ever been convicted of a felony?
+                            <br  />
+                            <input class="toggle" type="radio" name="ai_fellon"value="yes">Yes</input> <input class="toggle" type="radio" name="ai_fellon"value="no">No</input>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><textarea rows="4" cols="40" name="ai_fellon_explain">If yes, explain:</textarea></td>
+                    </tr>
+                </tbody>
+            </table>
+            <!--education-->
+            <table>
+                <caption>EDUCATION</caption>
+                <tbody>
+                    <tr>
+                        <td><input type="text" name="e_name_hs"placeholder="High School"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="e_address_hs"placeholder="Address"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="number" name="e_from_hs"placeholder="From (Year)"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="number" name="e_to_hs"placeholder="To (Year)"></td>
+                    </tr>
+                    <tr>
+                        <td>Did you graduate?
+                            <br  />
+                            <input class="toggle" type="radio" name="e_grad_hs" value="Yes">Yes</input> <input class="toggle" type="radio" name="e_grad_hs" value="No">No</input>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="e_name_c"placeholder="College"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="e_address_c"placeholder="Address"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="number" name="e_from_c"placeholder="From (Year)"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="number" name="e_to_c"placeholder="To (Year)"></td>
+                    </tr>
+                    <tr>
+                        <td>Did you graduate?
+                            <br  />
+                            <input class="toggle" type="radio" name="e_grad_c" value="Yes">Yes</input> <input class="toggle" type="radio" name="e_grad_c" value="No">No</input>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="e_degree_c"placeholder="Degree Earned"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="e_name_o"placeholder="Additional Schooling"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="e_address_o"placeholder="Address"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="number" name="e_from_o"placeholder="From (Year)"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="number" name="e_to_o"placeholder="To (Year)"></td>
+                    </tr>
+                    <tr>
+                        <td>Did you graduate?
+                            <br  />
+                            <input class="toggle" type="radio" name="e_grad_o" value="Yes">Yes</input> <input class="toggle" type="radio" name="e_grad_o" value="No">No</input>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="e_degree_o"placeholder="Degree Earned"></td>
+                    </tr>
+            </table>
+            <!--References-->
+            <table>
+                <caption>REFERENCES</caption>
+                <tbody>
+                    <tr>
+                        <td><input type="text" name="r1_name" placeholder="Full Name"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="r1_rel" placeholder="Relationship"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="r1_company" placeholder="Company"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="tel" name="r1_phone" placeholder="Phone Number"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="r1_address" placeholder="Address"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="r2_name" placeholder="Full Name"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="r2_rel" placeholder="Relationship"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="r2_company" placeholder="Company"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="tel" name="r2_phone" placeholder="Phone Number"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="r2_address" placeholder="Address"></td>
+                    </tr><tr>
+                        <td><input type="text" name="r3_name" placeholder="Full Name"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="r3_rel" placeholder="Relationship"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="r3_company" placeholder="Company"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="tel" name="r3_phone" placeholder="Phone Number"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="r3_address" placeholder="Address"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <!--previous employment-->
+            <table>
+                <caption>PREVIOUS EMPLOYMENT</caption>
+                <tbody>
+                    <tr>
+                        <td><input type="text"  name="pe1_company" placeholder="Company"</td>
+                    </tr>
+                    <tr>
+                        <td><input type="tel"  name="pe1_phone" placeholder="Phone Number"</td>
+                    </tr>
+                    <tr>
+                        <td><input type="text"  name="pe1_address" placeholder="Address"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text"  name="pe1_supervisor" placeholder="Supervisor"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text"  name="pe1_title" placeholder="Job Title"</td>
+                    </tr>
+                    <tr>
+                        <td><input type="text"  name="pe1_start_salary" placeholder="Starting Salary"</td>
+                    </tr>
+                    <tr>
+                        <td><input type="text"  name="pe1_end_salary" placeholder="Ending Salary"</td>
+                    </tr>
+                    <tr>
+                        <td><textarea rows="4" cols="45" name="pe1_job_desc" >Briefly describe your responsibilities</textarea></td>
+                    </tr>
+                    <tr>
+                        <td>From: <input class="date" type="date" name="pe1_from" ></td>
+                    </tr>
+                    <tr>
+                        <td>To: <input class="date" type="date" name="pe1_to" ></td>
+                    </tr>
+                    <tr>
+                        <td><textarea rows="4" cols="45" name="pe1_left_for" >Briefly describe your reason for leaving</textarea></td>
+                    </tr>
+                    <tr>
+                        <td>May we contact your previous supervisor for a reference? 
+                            <br  />
+                            <input class="toggle" type="radio" name="pe1_ref" value="Yes">Yes</input> <input class="toggle" type="radio" name="pe1_ref" value="No">No</input></td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="text"  name="pe2_company" placeholder="Company"</td>
+                    </tr>
+                    <tr>
+                        <td><input type="tel"  name="pe2_phone" placeholder="Phone Number"</td>
+                    </tr>
+                    <tr>
+                        <td><input type="text"  name="pe2_address" placeholder="Address"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text"  name="pe2_supervisor" placeholder="Supervisor"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text"  name="pe2_title" placeholder="Job Title"</td>
+                    </tr>
+                    <tr>
+                        <td><input type="text"  name="pe2_start_salary" placeholder="Starting Salary"</td>
+                    </tr>
+                    <tr>
+                        <td><input type="text"  name="pe2_end_salary" placeholder="Ending Salary"</td>
+                    </tr>
+                    <tr>
+                        <td><textarea rows="4" cols="45" name="pe2_job_desc" >Briefly describe your responsibilities</textarea></td>
+                    </tr>
+                    <tr>
+                        <td>From: <input class="date" type="date" name="pe2_from" ></td>
+                    </tr>
+                    <tr>
+                        <td>To:   <input class="date" type="date" name="pe2_to" ></td>
+                    </tr>
+                    <tr>
+                        <td><textarea rows="4" cols="45" name="pe2_left_for" >Briefly describe your reason for leaving</textarea></td>
+                    </tr>
+                    <tr>
+                        <td>May we contact your previous supervisor for a reference? 
+                            <br  />
+                            <input class="toggle" type="radio" name="pe2_ref" value="Yes">Yes</input> <input class="toggle" type="radio" name="pe2_ref" value="No">No</input></td></td>
+                    </tr>
+                </tbody>
+            </table>
+            <!--Military Service-->
+            <table>
+                <caption>MILITARY SERVICE</caption>
+                <tbody>
+                    <tr>
+                        <td><input type="text" placeholder="Branch"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="number" placeholder="From (Year)"</td>
+                    </tr>
+                    <tr>
+                        <td><input type="number" placeholder="To (Year)"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" placeholder="Rank at discharge"</td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" Placeholder="Type of discharge"</td>
+                    </tr>
+                    <tr>
+                        <td><textarea rows="4" cols="45">If other than honorable, explain</textarea></td>
+                    </tr>
+                </tbody>
+            </table>
+            <!--Disclaimer and Signature-->
+            <table>
+                <caption>DISCLAIMER AND SIGNATURE</caption>
+                <tbody>
+                    <tr>
+                        <td>I certify that my answers are true and complete to the best of my knowledge. If this application leads to employment, I understand that false or misleading information in my application or interview may result in my release.</td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="Submit"></td>
+                    </tr>
+                </tbody>
+                <!--captcha test-->
+            </table>
+        </form>
+    </body>
+</html>
